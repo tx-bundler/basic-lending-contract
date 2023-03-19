@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 contract BasicLending is Ownable, ReentrancyGuard {
     IERC20 public usdcToken;
 
-    uint256 public etherToUsdcRate = 2000; // 1 Ether = 3000 USDC (example rate)
+    uint256 public etherToUsdcRate = 2000; // 1 Ether = 2000 USDC (example rate)
     uint256 constant DECIMALS = 10**6; // USDC has 6 decimal places
 
     struct LiquidityPool {
