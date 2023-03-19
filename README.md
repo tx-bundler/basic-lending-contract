@@ -10,6 +10,9 @@ The contract code you provided looks good. I have reviewed it and didn't find an
     It has a constructor that takes an IERC20 token as a parameter.
     It has a receive and fallback function that revert any direct Ether transfers.
     It has functions for updating the Ether to USDC rate, depositing Ether and USDC, withdrawing shares in Ether or USDC, borrowing Ether or USDC, and repaying borrowed Ether or USDC.
+    
+## Contract Address on zkSync Era Göerli: 0xA7c9A38e77290420eD06cf54d27640dE27399eB1
+https://goerli.explorer.zksync.io/address/0xA7c9A38e77290420eD06cf54d27640dE27399eB1
 
 # Sample Hardhat Project
 
